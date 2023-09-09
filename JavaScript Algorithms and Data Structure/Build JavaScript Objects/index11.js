@@ -11,3 +11,4 @@ const myPlants = [
 ];
 
 const secondTree = console.log(myPlants[1].list[1]);
+console.log(myPlants[1].list.length)
