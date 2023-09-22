@@ -1,4 +1,4 @@
-var index = 0
+// var index = 0
 
 function changeColors() {
     // var colors = ['red', 'blue', 'yellow', 'green', 'purple', 'black', 'orange', 'pink']
@@ -8,6 +8,7 @@ function changeColors() {
 
     // document.getElementsByTagName('body')[0].style.background = colors[index++]
     document.getElementsByTagName('body')[0].style.background = `rgb(${red}, ${green}, ${blue})`
+    document.getElementsByTagName('button')[0].style.background = `rgb(${red}, ${green}, ${blue})`
 
     // if(index > colors.length - 1){
     //     index = 0
