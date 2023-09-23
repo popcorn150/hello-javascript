@@ -22,6 +22,12 @@ function changeColor() {
     hexCode += hex_numbers[random_index];
     // console.log(hexCode)
   }
+  const red = Math.floor(255);
+  const green = Math.floor(255);
+  const blue = Math.floor(255);
+  document.getElementsByTagName(
+    "h2"
+  )[0].style.color = `rgb(${red}, ${green}, ${blue})`;
   document.getElementById("hex-code").innerHTML = hexCode;
   document.getElementsByTagName("body")[0].style.background = `#${hexCode}`;
 }

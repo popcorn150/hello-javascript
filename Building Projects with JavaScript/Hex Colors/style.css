@@ -5,8 +5,6 @@ body {
 }
 
 .container {
-  background: black;
-  border: 2px solid black;
   width: 95%;
   height: 100vh;
   display: flex;
@@ -15,7 +13,6 @@ body {
 }
 
 .hex-colors {
-  border: 1px solid white;
   text-align: center;
 }
 
@@ -26,9 +23,9 @@ body {
 }
 
 .hex-colors h2 {
-  border: 1px solid white;
   font-size: 2rem;
   margin-top: 15%;
+  color: black;
 }
 
 @keyframes changecolor {
