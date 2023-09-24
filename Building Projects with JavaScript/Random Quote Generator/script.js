@@ -11,6 +11,12 @@ function generateQuote() {
     "Aaron Lauritsen":
       "“The struggles we endure today will be the ‘good old days’ we laugh about tomorrow.”",
   };
-  let authors = Object.keys(quotes)
-  let individualAuthor = authors[Math.floor(Math.random() * authors.length)]
+  let authors = Object.keys(quotes);
+  let individualAuthor = authors[Math.floor(Math.random() * authors.length)];
+  console.log(individualAuthor);
+
+  let quote = quotes[individualAuthor];
+
+  document.getElementById("quote").innerHTML = quote;
+  document.getElementById("author").innerHTML = individualAuthor;
 }

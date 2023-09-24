@@ -1,31 +1,36 @@
-body{
-    background: #000000;
-}
-.container{
-    border: 1px solid white;
-    width: 95%;
-    height: 100vh;
-    display: flex;
-}
-.quotes{
-    border: 10px solid #f4d1ae;
-    width: 900px;
-    height: 450px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 50px;
-    color: gray;
-    background-color: #f4edea;
+body {
+  background: #000000;
 }
 
-.quotes p, .quotes h3{
-    font-size: 1.5rem;
+.container {
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
+
+.quotes {
+  border: 10px solid #f4d1ae;
+  width: 900px;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  color: gray;
+  background-color: #f4edea;
+}
+
+.quotes p,
+.quotes h3 {
+  font-size: 1.5rem;
+}
+
 @media (max-width: 480) {
-    .quotes p, .quotes h3{
-        font-size: 1rem;
-    }
+  .quotes p,
+  .quotes h3 {
+    font-size: 1rem;
+  }
 }
