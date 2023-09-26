@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <h3 style="text-align: center; font-weight: bold">Tip Calculator</h3>
+        <p style="border-bottom: 2px solid rgba(211, 211, 211, 0.5)"></p>
+        <br />
+        <label for="amount">Bill Amount</label>
+        <br />
+        <button><i class="fa fa-usd" aria-hidden="true"></i></button
+        ><input id="amount" type="number" />
+        <br />
+        <br />
+        <label for="guest">Number of Guest</label>
+        <br />
+        <button><i class="fa fa-male" aria-hidden="true"></i></button
+        ><input id="guest" type="number" />
+        <br />
+        <br />
+        <label for="quality">Service Quality</label>
+        <br />
+        <select id="quality">
+          <option disabled selected value="0">Choose...</option>
+          <option value="0.3">30% - Outstanding</option>
+          <option value="0.2">20% - Good</option>
+          <option value="0.15">15% - It was okay</option>
+          <option value="0.10">10% - Bad</option>
+          <option value="0.05">5% - Terribley Worse</option>
+        </select>
+        <div style="text-align: center">
+          <p style="border-top: 2px solid rgba(211, 211, 211, 0.5)"></p>
+          <button
+            onclick="calculate()"
+            style="border-radius: 5px; width: fit-content"
+          >
+            Calculate
+          </button>
+        </div>
+      </div>
+      <div id="tip-amount"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
