@@ -50,6 +50,10 @@ body{
     font-size: 2rem;
 }
 
+#allItems h2:hover{
+    cursor: pointer;
+}
+
 @media (max-width: 480) {
     .gorceries h1{
         font-size: 2rem;
