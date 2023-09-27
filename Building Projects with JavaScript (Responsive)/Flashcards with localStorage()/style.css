@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
 *{
     padding: 0;
@@ -7,8 +7,7 @@
 }
 
 body{
-    font-family: 'Agdasima', sans-serif;
-    font-size: 1rem;
+    font-family: 'ABeeZee', sans-serif;    font-size: 1rem;
     background-color: whitesmoke;
 }
 
@@ -79,6 +78,10 @@ button:hover{
     margin: auto;
     margin-top: 10px;
     padding: 0 10px;
+}
+
+.flashcards:hover{
+    cursor: pointer;
 }
 
 .flashcard{
