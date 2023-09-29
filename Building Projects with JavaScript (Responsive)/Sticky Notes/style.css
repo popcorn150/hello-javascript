@@ -18,6 +18,10 @@ body {
   margin-left: 5%;
 }
 
+button{
+  margin-top: 10px;
+}
+
 .container2 {
   display: flex;
   justify-content: flex-start;
@@ -26,7 +30,7 @@ body {
   margin-left: 5%;
 }
 
-#container3 {
+.container3 {
   display: none;
   position: absolute;
   top: 26%;
@@ -39,11 +43,13 @@ textarea {
   border: none;
   width: 275px;
   height: 275px;
-  padding: 45px 25px 25px 25px;
+  padding: 40px 25px 25px 25px;
 }
 
 svg {
   color: gray;
+  width: 7%;
+  height: 7%;
 }
 
 #check-icon {
