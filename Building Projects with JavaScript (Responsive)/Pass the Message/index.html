@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pass the Message</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="message">
+        <p style="text-align: center; font-weight: bold">Pass the Message</p>
+        <p style="border-bottom: 2px solid rgb(211, 211, 211, 0.5)"></p>
+        <p>
+          <label for="message-input">Enter your Message</label>
+          <br />
+          <button style="border-radius: 5px 0 0 5px">
+            <i class="fa fa-envelope"></i></button
+          ><input type="text" name="" id="message-input" />
+        </p>
+        <p><button onclick="getMessage()">Submit</button></p>
+        <p id="message-output" style="text-align: center;text-transform: uppercase;font-family: 'Courier New', Courier, monospace;"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
