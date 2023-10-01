@@ -1,0 +1,50 @@
+body {
+  font-family: "Luckiest Guy";
+  overflow: hidden;
+  background-color: #e6e6ea;
+}
+
+.home-container {
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.inner-container {
+  border: 1px solid black;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container h1 {
+  font-size: 70px;
+}
+
+.list ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.list li {
+  margin-top: 10px;
+}
+
+.list a {
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
