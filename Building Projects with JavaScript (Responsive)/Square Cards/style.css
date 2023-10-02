@@ -60,15 +60,15 @@ body {
 }
 
 #my-cards .card:hover .middle {
-    opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
-    #my-cards .card{
-        width: 95%;
-    }
+  #my-cards .card {
+    width: 95%;
+  }
 
-    #my-cards .card:hover {
-        transform: scale(1);
-    }
+  #my-cards .card:hover {
+    transform: scale(1);
+  }
 }
